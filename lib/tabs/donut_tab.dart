@@ -6,11 +6,17 @@ class DonutTab extends StatelessWidget {
   // Lista de donas
   final List donutsOnSale = [
     // [ donutFlavor, donutStore, donutPrice, donutColor, imageName ]
-    ["Ice Cream","Krispy cream", "36", Colors.blue, "lib/images/icecream_donut.png"],
-    ["Strawberry","Dunkin donuts", "45", Colors.red, "lib/images/strawberry_donut.png"],
-    ["Grape Ape","Krispy cream", "84", Colors.purple, "lib/images/grape_donut.png"],
-    ["Choco","Dunkin cream", "95", Colors.brown, "lib/images/chocolate_donut.png"],
-  ];
+    
+  ["Cheeseburger", "Burger King", "55", Colors.yellow, "lib/images/icecream_donut.png"],
+  ["BBQ Bacon", "McDonald's", "70", Colors.brown, "lib/images/strawberry_donut.png"],
+  ["Veggie Burger", "Subway", "40", Colors.green, "lib/images/grape_donut.png"],
+  ["Double Patty", "Wendy's", "90", Colors.orange, "lib/images/chocolate_donut.png"],
+  ["Spicy Chicken", "KFC", "60", Colors.red, "lib/images/icecream_donut.png"],
+  ["Big Mac", "McDonald's", "85", Colors.blueGrey, "lib/images/strawberry_donut.png"],
+  ["Mushroom Swiss", "Carl's Jr.", "75", Colors.grey, "lib/images/grape_donut.png"],
+  ["Classic Whopper", "Burger King", "65", Colors.orangeAccent, "lib/images/chocolate_donut.png"],
+];
+
   DonutTab({super.key});
  
   @override
